@@ -1,0 +1,16 @@
+[BT_Config]
+ANNEX56_EXIST=0
+Version=0x1
+Xtal=0xCA
+InitPwrIndBm_Pwr=4
+FELoss=0x8
+ForceClass2Op=0
+DisablePwrControl=0
+MiscFlag=0
+UsedInternalSleepClock=0
+RssiGoldenRangeLow=0xba
+RssiGoldenRangeHigh=0xce
+UartBaudRate=3000000
+BdAddress=00.00.00.00.00.00
+MinEncrKeyLen=0x0
+MaxEncrKeyLen=0xf

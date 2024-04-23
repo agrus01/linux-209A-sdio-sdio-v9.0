@@ -1,0 +1,7 @@
+; HighFreqBound		LowFreqBound
+	5850		5730
+; powerLevel	ValInitTgrt	ValPDetThHi	ValPDetThLo	ValDacX
+15	57	ff	ff	0
+12	52	ff	ff	0
+9	4e	ff	ff	0
+5	48	ff	ff	0

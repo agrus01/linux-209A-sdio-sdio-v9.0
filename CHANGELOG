@@ -1,0 +1,12 @@
+## v9.0
+- Based on SD-WLAN-SD-BT-8887-U16-MMC-W15.68.19.p73-15.26.19.p73-CS4X15716_A2-MGPL
+- Add convenience makefile for pc build
+- Energy Detect in CCA enabled by default
+- Add cluster country region for EU
+- Add announcement of HDW additions to NXP driver
+- Add convenience makefiles for native arm build
+- Fix missing object in install recipe
+- Fix unable to properly perform install task in yocto
+- Fix bug where driver fails to load regional tx power files
+- Load the US txpower table by default
+- Add regulatory domains

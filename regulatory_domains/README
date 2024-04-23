@@ -1,0 +1,18 @@
+SPB209A regulatory tables
+=========================
+
+Note: Please, read first the document 'Regulatory domains.pdf' to get an
+understanding of what regulatory domains are and how they are enforced in
+the Linux kernel.
+
+To comply with the domains the SPB209A has been certified in, you need to add
+the regulatory tables from this folder to your Linux distribution on your end
+product. You can either:
+- use the 'regulatory.bin' file with CRDA, in which case don't forget to also
+install 'hdwireless-reg.key.pub.pem'
+- use the 'db.txt' file for direct inclusion within the kernel
+- use the 'regulatory.db' and 'regulatory.db.p7s' files if you want to load the
+regulatory database as a firmware. To use this method, you will also need to
+recompile your kernel with the 'hdwireless-reg.hex' certificate added to the
+folder <kernel_src>/net/wireless/certs/
+

@@ -1,0 +1,33 @@
+/********************************************/
+/*        ADDENDUM BY HD Wireless AB        */
+/********************************************/
+
+Some functional changes to the driver source code has been made by HD Wireless AB.
+These changes are tagged with HDW_xxx, where xxx denotes the associated functionality.
+Currently following HDW tags are present:
+
+- HDW_ENABLE_CCA_ED
+- HDW_CLUSTER_COUNTRY_REGION
+- HDW_IGNORE_FW_COUNTRY_CODE
+- HDW_US_TXPOWER_TABLES_BY_DEFAULT
+
+HDW_ENABLE_CCA_ED:
+=================
+CCA Energy Detect is by default disabled in the driver. This addition enables CCA Energy Detect and adjust the levels in order to ensure compliance for HDW products.
+
+
+HDW_CLUSTER_COUNTRY_REGION:
+==========================
+This allows for a single country region tx power table for a regulatory area (e.g ETSI) instead of a separate table for each subjected country.
+
+
+HDW_IGNORE_FW_COUNTRY_CODE:
+==========================
+The firmware reports an incorrect operating country code, ignore it.
+
+HDW_US_TXPOWER_TABLES_BY_DEFAULT:
+================================
+Load the US Tx power tables to provide default values while the regulatory domain is not set
+
+Furthermore:
+- Some convenience makefiles (pc-make and imx-make) has been added.

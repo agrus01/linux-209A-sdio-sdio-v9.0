@@ -1,0 +1,11 @@
+PRODUCT=209A
+Driver_version=v9.0
+HDW_revision=00040b8
+Date_created=2023-10-10
+FWNAME=sd8887_uapsta_a2.bin
+INTERFACE=sdio
+BTDIR=mbt_src
+
+[LICENSE]
+Firmware binaries	: NXP proprietary (file: FwImage/COPYING)
+Software source code	: GNU General Public License Version 2

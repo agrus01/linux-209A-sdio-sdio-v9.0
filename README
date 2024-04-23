@@ -1,0 +1,8 @@
+The install-driver.sh script will build the kernel drivers for WiFi and install the chip firmware.
+Please note that the  script does NEITHER insert the driver modules into linux kernel NOR set them up for plug n play.
+To insert the modules into linux kernel, please refer to load-driver.sh or wlan_src/README to get more information, 
+for example supported linux kernel version and driver load parameters.
+
+For the UART Bluetooth driver, the hci_uart driver from the mainline kernel tree can be used. To run Bluetooth, please refer to run-bt.sh script.
+
+Please visit http;//support.hd-wireless.com for more guides to enabling the device features.

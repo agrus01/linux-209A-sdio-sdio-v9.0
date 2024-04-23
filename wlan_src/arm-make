@@ -1,0 +1,2 @@
+all $(MAKECMDGOALS):
+	$(MAKE) CONFIG_ANDROID_KERNEL=n ARCH=arm KERNELDIR=/lib/modules/$(shell uname -r)/build CROSS_COMPILE= $(MAKECMDGOALS)

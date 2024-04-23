@@ -1,0 +1,3 @@
+all $(MAKECMDGOALS):
+	$(MAKE) CONFIG_ANDROID_KERNEL=n ARCH=arm KERNELDIR=~/hdw/extern_sw/yocto/fsl_dl_4_1_15_bsp/build/tmp/work/imx6dlsabresd-poky-linux-gnueabi/linux-imx/4.1.15-r0/build CROSS_COMPILE=~/hdw/extern_sw/yocto/fsl_dl_4_1_15_bsp/build/tmp/sysroots/x86_64-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi- $(MAKECMDGOALS)
+
